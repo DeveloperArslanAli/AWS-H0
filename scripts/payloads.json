@@ -1,0 +1,30 @@
+{
+  "signup": {
+    "valid": {
+      "email": "live-test@auroraguard.dev",
+      "password": "securepassword123",
+      "fullName": "Live Tester",
+      "company": "Test Co."
+    },
+    "invalid_email": {
+      "email": "not-an-email",
+      "password": "securepassword123",
+      "fullName": "Live Tester",
+      "company": "Test Co."
+    },
+    "short_password": {
+      "email": "live-test2@auroraguard.dev",
+      "password": "123",
+      "fullName": "Live Tester",
+      "company": "Test Co."
+    }
+  },
+  "metrics": {
+    "tick": {
+      "empty": {},
+      "with_query": {
+        "syncQueries": true
+      }
+    }
+  }
+}
